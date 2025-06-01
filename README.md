@@ -1,12 +1,32 @@
-# React + Vite
+# LIve link- https://key-longer.vercel.app/
+# ⌨️ KeyLogger React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet interactive **React-based KeyLogger** that listens to keyboard events in real-time and displays which key was pressed and whether it's currently down or up. Useful as a beginner project to understand React hooks and event listeners.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⌨️ Logs the key being pressed (`keydown`) and released (`keyup`)
+- 🧠 Displays the current state of the key (Up or Down)
+- 🟢 Start/Stop Logging buttons with UI feedback
+- 🧼 Auto-clears logs when logging stops
+- 🎨 Minimal styling using inline styles
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React (with `useState` & `useEffect`)
+- **Styling:** JavaScript inline styles (can be easily replaced with Tailwind or CSS)
+- **Events:** Native DOM `keydown` and `keyup`
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/keylogger-react-app.git
+cd keylogger-react-app
